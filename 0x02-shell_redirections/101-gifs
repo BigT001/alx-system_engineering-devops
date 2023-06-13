@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -type f -name "*.gif" | while read -r file; | LC_ALL=C sort -f --ignore-case && echo
